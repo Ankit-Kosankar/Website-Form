@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Website Form</title>
+</head>
+<body>
+    <main class="main">
+        <div class="container">
+            <h1 id="title">Choose Requirement's for your Website</h1>
+            <p id="description">Please Provide Details about the development of a website for the Customer </p>
+        </div>
+        <div class="form-container">
+            <form action="" id="survey-form">
+                <fieldset>
+                    <label for="" id="name-label">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Your Full Name"required><br>
+                    
+                    <label for="" id="email-label">Email:</label>
+                    <input type="email" name="enail" id="email" required placeholder="Your Email"><br>
+                    
+                    <label for="" id="number-label">Number: </label>
+                    <input type="number" name="number" id="number" min="8" max="10" placeholder="Mobil No"><br>
+                </fieldset>
+                <fieldset>
+                    <h4>Select Backend Technology</h4>
+                    <select name="dropdown" id="dropdown">
+                    <option value="1">Node.js</option>
+                    <option value="2">Java</option>
+                    <option value="2">.NET</option>
+                    <option value="2">Using Website Builder</option>
+                    <option value="2">Other</option>
+                    </select>
+                </fieldset>
+                <br>
+                <fieldset class="gender">
+                    <h4>Select Your gender</h4>
+                    <input type="radio" name="gender" value="male" id="">
+                    <label for="">male</label><br>
+                    
+                    <input type="radio" name="gender"  value="female" id="" >
+                    <label for="">Female</label><br>
+                    
+                    <input type="radio" name="gender" value="other"id="">
+                    <label for="">Other</label><br>
+                    
+                </fieldset>
+                <fieldset class="checkboxes">
+                    <h4>Select Your the type of Site required</h4>
+                    
+                    <input type="checkbox" name="checkbox" value="PersonalSite" id="">
+                    <label for="">E-Commerce</label><br>
+                    
+                    <input type="checkbox" name="checkbox" value="2" id="BussinesSite">
+                    <label for="">Magazine Site</label><br>
+
+                    <input type="checkbox" name="checkbox" value="PersonalSite" id="">
+                    <label for="">Portfolio</label><br>
+
+
+                    <input type="checkbox" name="checkbox" value="PersonalSite" id="">
+                    <label for="">Blog</label><br>
+
+                    <input type="checkbox" name="checkbox" value="PersonalSite" id="">
+                    <label for="">Social Media Website</label><br>
+                    
+                    <input type="checkbox" name="checkbox" value="PersonalSite" id="">
+                    <label for="">Travel Website</label><br>
+                    
+                    <input type="checkbox" name="checkbox" value="3" id="StaticSite">
+                    <label for="">Landing Pages</label>
+                </fieldset>
+                <fieldset>
+                    <textarea name="" id="" cols="30" rows="7" placeholder="Additional Comments"></textarea><br>
+                </fieldset>
+                <button type="submit" class="btn-grad" id="submit">Submit</button>
+            </form>
+        </div>
+    </main>
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>    
+</body>
+</html>
